@@ -1,4 +1,12 @@
-# DeepDream
-Creating Art with Artificial Intelligence: Activation Maximization Through Gradient Ascent
+# The Deep Dream Algorithm
+Creating Vivid Visualizations with Machine Learning and Math: Activation Maximization Through Gradient Ascent
 
-An example video I made: https://www.youtube.com/watch?v=oWClAmB6xAM
+## What is Deep Dream, and how can a computer "Dream"?
+As image recognition, object detection and segmentation neural networks get more advanced, they suffer more and more from a lack of interpretability. Deep Dream performs Activation Maximization, also known as Feature Visualization, in order to reveal the features that a given convolutional neural network is looking for. By maximally activating the brain of the model, we get vivid visualizations of the learned representations. 
+
+
+
+
+
+
+One example video I made: https://www.youtube.com/watch?v=oWClAmB6xAM
