@@ -21,10 +21,6 @@ Deep Dream performs Activation Maximization, also known as Feature Visualization
 
 
 
-![alt text](https://github.com/stephenjarrell19/DeepDream/blob/main/uploads/butterfly.jpg?raw=true "Butterfly") 
-
-![alt text](https://github.com/stephenjarrell19/DeepDream/blob/main/uploads/butterfly5.png?raw=true "Butterfly Dream") 
-
 
 
 
