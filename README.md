@@ -29,7 +29,7 @@ Deep Dream performs Activation Maximization, also known as Feature Visualization
 
 ## VGG16 Layers Visualized: Trained on ImageNet
 
-##Shallow Layers
+## Shallow Layers
 Layers closer to the input and beginning of the network contain simple edges and patterns.
 <p align="center">
 <img src="vgg_outputs/vggblock1_conv2.jpg" width="200"/>
