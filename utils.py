@@ -5,9 +5,12 @@ import cv2
 import IPython.display as display
 import PIL.Image
 import os
+import imutils
 
-def clipped_zoom(img, zoom_factor, **kwargs):
+def clipped_zoom(img, zoom_factor, rotate = False):
 
+    if rotate:
+        img = imutils.rotate(img.numpy(), angle = 1)
     h, w = img.shape[:2]
 
     # For multichannel images we don't want to apply the zoom factor to the RGB
@@ -26,7 +29,7 @@ def clipped_zoom(img, zoom_factor, **kwargs):
 
         # Zero-padding
         out = np.zeros_like(img)
-        out[top:top+zh, left:left+zw] = zoom(img, zoom_tuple, **kwargs)
+        out[top:top+zh, left:left+zw] = zoom(img, zoom_tuple)
 
     # Zooming in
     elif zoom_factor > 1:
@@ -37,7 +40,7 @@ def clipped_zoom(img, zoom_factor, **kwargs):
         top = (h - zh) // 2
         left = (w - zw) // 2
 
-        out = zoom(img[top:top+zh, left:left+zw], zoom_tuple, **kwargs)
+        out = zoom(img[top:top+zh, left:left+zw], zoom_tuple)
 
         # `out` might still be slightly larger than `img` due to rounding, so
         # trim off any extra pixels at the edges
