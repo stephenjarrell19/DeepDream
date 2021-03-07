@@ -10,7 +10,7 @@ import imutils
 def clipped_zoom(img, zoom_factor, rotate = False):
 
     if rotate:
-        img = imutils.rotate(img.numpy(), angle = 1)
+        img = imutils.rotate(img.numpy(), angle = 0.5)
     h, w = img.shape[:2]
 
     # For multichannel images we don't want to apply the zoom factor to the RGB
