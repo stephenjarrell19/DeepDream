@@ -32,6 +32,7 @@ Deeper Layers, layers closer to the classification layers and output, contain hi
 
 ## InceptionV3: Trained on ImageNet
 
+We can also input any input image to see how the model might "hallucinate" learned features on the image, resulting in some psychedlic imagery. Here are some examples:
 <p align="center">
 <img src="uploads/castle.jpg" width="700"/>
   <img src="uploads/dream2.png" width="700"/>
@@ -50,6 +51,6 @@ One example video I made: https://www.youtube.com/watch?v=oWClAmB6xAM
 
 ## Getting Started
 
-Open the jupyter notebook and create a Dreamer object with the default hyperparameters. Call the object with your input image to start spectating the dreaming process! Fine tuning hyperparameters is really a matter of trial and error, since what you find visually pleasing is completely subjective! I hope you enjoy this project and find this example useful.
+Create a Dreamer object with the default hyperparameters. Call the object with your input image to start spectating the dreaming process! Fine tuning hyperparameters is really a matter of trial and error and personal preference, since what you find visually pleasing is completely subjective! I hope you enjoy this project and find this example useful in your own investigations of image recognition models.
 
 I also recommend you check out an excellent tutorial at https://www.tensorflow.org/tutorials/generative/deepdream , and a brilliant article https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html
