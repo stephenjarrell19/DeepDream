@@ -12,21 +12,6 @@ As image recognition, object detection and segmentation neural networks get more
 
 Deep Dream performs Activation Maximization, also known as Feature Visualization, in order to reveal the features that a given convolutional neural network is looking for. By maximally activating the brain of the model, we get vivid visualizations of the learned representations. 
 
-
-
-## InceptionV3: Trained on ImageNet
-
-<p align="center">
-<img src="uploads/castle.jpg" width="700"/>
-  <img src="uploads/dream2.png" width="700"/>
-</p>
-
-
-<p align="center">
-<img src="uploads/butterfly.jpg" width="700"/>
-  <img src="uploads/butterfly5.png" width="700"/>
-</p>
-
 ## VGG16 Layers Visualized: Trained on ImageNet
 
 ## Shallow Layers
@@ -41,6 +26,21 @@ Deeper Layers, layers closer to the classification layers and output, contain hi
 <p align="center">
 <img src="vgg_outputs/vggblock4_conv1.jpg" width="200"/>
  <img src="vgg_outputs/vggblock5_conv1.jpg" width="200"/>
+</p>
+
+
+
+## InceptionV3: Trained on ImageNet
+
+<p align="center">
+<img src="uploads/castle.jpg" width="700"/>
+  <img src="uploads/dream2.png" width="700"/>
+</p>
+
+
+<p align="center">
+<img src="uploads/butterfly.jpg" width="700"/>
+  <img src="uploads/butterfly5.png" width="700"/>
 </p>
 
 
